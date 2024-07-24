@@ -2,8 +2,7 @@
 </script>
 
 <div class="app">
-	<main>
-		<slot />
-	</main>
+  <main>
+    <slot />
+  </main>
 </div>
-
