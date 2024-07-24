@@ -1,4 +1,5 @@
 <script lang="ts">
+  import '@/core'
   import { onMount } from 'svelte'
   import { assets, base, resolveRoute } from '$app/paths'
   import {
