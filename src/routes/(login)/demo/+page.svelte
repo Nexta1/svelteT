@@ -1,14 +1,13 @@
 <script lang="ts">
-  import { page } from '$app/stores'
-  export let data
-  console.log($page.data)
+  import Button2 from "./Button.svelte"
+  let element: HTMLButtonElement
+  let field: Button2
+  let input: any
+
+  $: {
+    console.log(input)
+    console.log(field?.focus) // interact with DOM nodes programmatically.
+  }
 </script>
 
-<svelte:head>
-  <title>About</title>
-  <meta name="description" content="About this app" />
-</svelte:head>
-
-<div class="text-column">
-  {data.x}
-</div>
+<Button2 bind:this={field} />
