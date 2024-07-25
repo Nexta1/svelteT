@@ -1,13 +1,12 @@
-<script lang="ts">
-  import Button2 from "./Button.svelte"
-  let element: HTMLButtonElement
-  let field: Button2
-  let input: any
-
-  $: {
-    console.log(input)
-    console.log(field?.focus) // interact with DOM nodes programmatically.
-  }
+<script>
+  import { GradientButton } from "flowbite-svelte"
 </script>
 
-<Button2 bind:this={field} />
+<GradientButton color="blue">Blue</GradientButton>
+<GradientButton color="green">Green</GradientButton>
+<GradientButton color="cyan">Cyan</GradientButton>
+<GradientButton color="teal">Teal</GradientButton>
+<GradientButton color="lime">Lime</GradientButton>
+<GradientButton color="red">Red</GradientButton>
+<GradientButton color="pink">Pink</GradientButton>
+<GradientButton color="purple">Purple</GradientButton>
