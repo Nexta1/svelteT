@@ -17,9 +17,6 @@
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@types/node": "^20.14.12",
     "autoprefixer": "^10.4.19",
-    "flowbite": "^2.4.1",
-    "flowbite-svelte": "^0.46.15",
-    "flowbite-svelte-icons": "^1.6.1",
     "postcss": "^8.4.40",
     "prettier": "^3.3.3",
     "prettier-plugin-svelte": "^3.2.6",
@@ -30,5 +27,15 @@
     "typescript": "^5.0.0",
     "vite": "^5.0.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@svelteuidev/composables": "^0.15.7",
+    "@svelteuidev/core": "^0.15.7",
+    "@svelteuidev/dates": "^0.15.7",
+    "@svelteuidev/motion": "^0.15.7",
+    "@svelteuidev/preprocessors": "^0.15.7",
+    "@svelteuidev/prism": "^0.15.7",
+    "@toast-ui/calendar": "^2.1.3",
+    "dayjs": "^1.11.12"
+  }
 }
